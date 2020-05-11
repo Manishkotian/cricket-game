@@ -1,0 +1,59 @@
+.score-card {
+	padding: 10px;
+}
+.score-table {
+	display: flex;
+	flex-direction: row;
+}
+
+.score-title {
+	font-size: 20px;
+	color: yellow;
+	text-align: left;
+}
+
+.score-view {
+	background-color: white;
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 5px;
+}
+
+.teams {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.team-name {
+	width: 100px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.score-details span {
+	width: 100px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.success-message {
+	color: red;
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+table thead {
+	background-color: black;
+}
+
+tr th {
+	color: white !important;
+	font-size: 18px !important;
+}
+
+.batsman-table {
+	margin-right: 10px;
+}

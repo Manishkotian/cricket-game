@@ -1,0 +1,35 @@
+.base-layout {
+    background-image: radial-gradient(circle at center, #007cae, #004d81, #0b1d3f);
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    height: 100px;
+    align-items: center;
+}
+
+.action-button {
+    width: 100px;
+    height: 50px;
+    background-color: yellow !important;
+}
+
+.action-button span,  .ball span{
+    font-size: 20px ;
+}
+
+.ball {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
